@@ -1,0 +1,136 @@
+\section{Kinetische Gas-Theorie}
+
+\subsection{Aequipartitionsgesetz}
+
+\textbf{Mittlere kinetische Energie} 
+
+\smallskip
+
+Idealisierte Annahmen: 
+
+\begin{itemize}
+	\item Moleküle = Massenpunkte
+	\item Keine (bzw.) elastische Zusammenstösse
+	\item Keine Kräfte zwischen den Molekülen
+	\item Elastischer Stoss gegen Wand 
+	\item Alle Moleküle haben gleiche Geschwindigkeit
+	\item $\frac{1}{6}$ aller Moleküle fliegen gegen eine einzelne Wand
+\end{itemize}
+
+\medskip
+
+
+\begin{minipage}[c]{0.48\columnwidth}
+	$$ \boxed{ \overline{E} = f \cdot \frac{k \cdot T}{2} } $$
+\end{minipage}
+\hfill
+\begin{minipage}[c]{0.48\columnwidth}
+	\begin{tabular}{ll}
+		$f = 3$	& 1-atomiges Gas \\
+		$f = 5$	& 2-atomiges Gas \\
+		$f = 6$	& 3-atomiges Gas \\
+	\end{tabular}
+\end{minipage}
+
+\medskip
+
+\begin{tabular}{c l c}
+	$\overline{E}$	& Mittlere kinetische Energie												& $[\overline{E}] = \joule$ 		\\
+	$f$ 			& Freiheitsgrade 															& $[f] = 1$ 						\\
+	$k$ 			& Boltzmann-Konstante $k = 1.381 \cdot 10^{-23} \, \frac{\joule}{\kelvin}$	& $[k] = \frac{\joule}{\kelvin}$	\\
+	$T$ 			& \textbf{Absolute} Temperatur 												& $[T] = \kelvin$
+\end{tabular}
+
+\subsection{Gesetz von Dulong - Petit}
+
+$$\boxed{ C_{mv} \approx 3\cdot k \cdot N_a = 3R}$$
+
+\begin{tabular}{c c c}
+	gilt nur für Festkörper (Metallen) &  &                 \\
+	welche 6 Freiheitsgerade haben      &                              &                 \\
+$\to$ mehr davon im Anhang & & \\
+\medskip
+
+\end{tabular}
+
+\begin{tabular}{c l c}
+	k              & Boltzmann-Konstante $ k = 1.381 \cdot 10^{-23}$  & $[k] = \frac{\joule}{\kelvin}$
+\end{tabular}
+
+
+\subsection{Geschwindigkeiten}
+
+\subsubsection{Wahrscheinlichste Geschwindigkeit $\boldsymbol{v_0}$}
+
+\vspace{-0.2cm}
+
+$$ \boxed{ v_0 = \sqrt{\frac{2 \cdot k \cdot T}{m}} = \sqrt{\frac{2RT}{M}} } $$
+
+
+\begin{tabular}{c l c}
+	$k$ & Boltzmann-Konstante $k = 1.381 \cdot 10^{-23} \, \frac{\joule}{\kelvin}$	& $[k] = \frac{\joule}{\kelvin}$	\\
+	$T$ & \textbf{Absolute} Temperatur 												& $[T] = \kelvin$ 					\\
+	$m$ & Masse des Teilchens 														& $[m] = \kilogram$
+\end{tabular}
+
+\subsubsection{Mittlere Geschwindigkeit $\bm{\overline{v}}$}
+
+\vspace{-0.2cm}
+
+$$ \boxed{ \overline{v} = \sqrt{\frac{8 \cdot k \cdot T}{\pi \cdot m}} = \sqrt{\frac{8RT}{\pi \cdot M}}} $$
+
+
+\subsubsection{Mittlere quadratische Geschwindigkeit $\bm{u}$}
+
+\vspace{-0.2cm}
+
+$$ \boxed{ u = \sqrt{\frac{3 \cdot k \cdot T}{m}} = \sqrt{\frac{3RT}{M}}} $$
+
+
+\smallskip
+
+\begin{minipage}{0.9\columnwidth}
+	\centering
+	\includegraphics[width=\columnwidth]{images/DiagramGeschwindigkeit.jpg}
+\end{minipage}
+
+\columnbreak
+
+\subsection{Maxwell-Boltzmann-Verteilung}
+
+\vspace{-0.2cm}
+
+$$ \boxed{ f(m, \, T, \, v) = \sqrt{\frac{2 \cdot m^3}{\pi \cdot k^3 \cdot T^3 }}  \cdot v^2 \cdot \e ^{- \frac{m \cdot v^2}{2 \cdot k \cdot T}} } $$
+
+
+\begin{tabular}{c l c}
+	$m$ & Masse des Teilchens 														& $[m] = \kilogram$ 				\\
+	$k$ & Boltzmann-Konstante $k = 1.381 \cdot 10^{-23} \, \frac{\joule}{\kelvin}$	& $[k] = \frac{\joule}{\kelvin}$	\\
+	$T$ & \textbf{Absolute} Temperatur 												& $[T] = \kelvin$ 					\\
+	$v$ & Geschwindigkeit 															& $[v] = \frac{\meter}{\second}$
+\end{tabular}
+
+
+\subsection[Mittlere freie Weglänge]{Mittlere freie Weglänge $\boldsymbol{\overline{\lambda}}$}
+
+Gibt an, um welche Strecke sich ein Molekül im Mittel bis zum nächsten Zusammenstoss fortbewegen kann.
+
+$$ \boxed{ \overline{\lambda} = \frac{1}{\sqrt{2}} \cdot \frac{1}{n \cdot (\pi \cdot d^2 )} }  \qquad \text{mit Wirkungsquerschnitt } \sigma = \pi \cdot d^2$$
+
+\begin{tabular}{c l c}
+	$n$ & \crd{Molekül-Dichte} 	& $[n] = \frac{1}{\meter^3}$	\\	
+	$d$ & Molekül-Durchmesser 	& $[d] = \meter^2$
+\end{tabular}
+
+
+\subsection{Dichtefunktion}
+
+\begin{minipage}[c]{0.58\columnwidth}
+	Verteilungsfunktion der mittleren, freien Weglänge 
+\end{minipage}
+\hfill
+\begin{minipage}[c]{0.38\columnwidth}
+	$$ \boxed{ f(x) = \frac{1}{\overline{\lambda}} \cdot \e^{- \frac{x}{\overline{\lambda}}}  } $$
+\end{minipage}
+
+\columnbreak
