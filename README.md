@@ -3,7 +3,7 @@
 ## Modul-Info
 
 Semester: FS 2026 \
-Dozent: Gregor Dudle
+Dozent: Dudle
 
 
 ## Hilfsmittel für Prüfung
